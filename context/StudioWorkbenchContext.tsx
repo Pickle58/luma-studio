@@ -147,10 +147,6 @@ function useStudioWorkbenchValue({
   async function handleSubmit(event: SubmitEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    if (isLoading) {
-      return;
-    }
-
     if (!file) {
       setError("Please upload an image first.");
       return;
