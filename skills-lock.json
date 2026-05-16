@@ -42,6 +42,18 @@
       "sourceType": "github",
       "skillPath": "skills/features/clerk-webhooks/SKILL.md",
       "computedHash": "4764eeeef1e80ce9757759ef119a3a5e77322383e8a37975d7c8ea718c259ec9"
+    },
+    "sentry-setup-ai-monitoring": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "skillPath": "skills/sentry-setup-ai-monitoring/SKILL.md",
+      "computedHash": "9618c7f6f8848465d170eedb056020f8b83b48ef65704c8da676b6f6aee6c71b"
+    },
+    "sentry-workflow": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "skillPath": "skills/sentry-workflow/SKILL.md",
+      "computedHash": "3384bbf87660a1e633ad72e56f0fb520c4d93956e41eb4ef8d70187a29955fb8"
     }
   }
 }
