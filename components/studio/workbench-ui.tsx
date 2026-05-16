@@ -14,7 +14,7 @@ export function GenerateButton({ disabled, isLoading }: { disabled: boolean; isL
   return (
     <Button
       type="submit"
-      disabled={disabled || isLoading}
+      disabled={disabled}
       className={cn("studio-primary-action rounded-full w-full py-5 mt-2 text-2xl")}
     >
       {isLoading ? (
