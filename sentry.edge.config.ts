@@ -11,6 +11,15 @@ Sentry.init({
   // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.
   tracesSampleRate: 1,
 
+  // Stream gen_ai.* spans as they are produced. SDK >= 10.53.0.
+  streamGenAiSpans: true,
+
+  integrations: [
+    // Vercel AI SDK auto-instrumentation for Edge runtime calls. Prompt/output
+    // capture remains OFF; opt in per-call via `experimental_telemetry`.
+    Sentry.vercelAIIntegration(),
+  ],
+
   // Enable logs to be sent to Sentry
   enableLogs: true,
 
